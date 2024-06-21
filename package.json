@@ -1,0 +1,35 @@
+{
+  "name": "Fifi",
+  "version": "1.0.0",
+  "description": "Boilerplate with Next JS, ANT Design, Redux & SCSS",
+  "main": "index.js",
+  "dependencies": {
+    "@zeit/next-sass": "^1.0.1",
+    "antd": "^3.12.1",
+    "babel-plugin-import": "^1.11.0",
+    "babel-plugin-inline-import": "^2.0.6",
+    "compression": "^1.7.2",
+    "express": "^4.16.2",
+    "file-loader": "^1.1.11",
+    "next": "^7.0.2",
+    "next-seo": "^1.8.0",
+    "node-sass": "^4.11.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "styled-jsx": "^2.2.5",
+    "styled-jsx-plugin-sass": "^0.2.3",
+    "url-loader": "^1.0.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "old_dev": "next",
+    "old_build": "next build",
+    "old_start": "next start -p $PORT",
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js -p $PORT",
+    "heroku-postbuild": "next build"
+  },
+  "author": "kesanam.ravi@gmail.com",
+  "license": "ISC"
+}
